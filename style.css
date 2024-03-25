@@ -1,0 +1,196 @@
+@font-face {
+  font-family: "HPL";
+  src: url(./fonts/HeadlOneHPLHS.otf);
+  src: url(./fonts/OldstItaHPLHS.otf);
+  src: url(./fonts/OldstSmaCapHPLHS.otf);
+  src: url(./fonts/OldStyHPLHS.otf);
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background-color: black;
+  font-size: 120%;
+  background-image: url(./cthulhu_wallpaper_by_lar_max_dekt18o-fullview.jpg);
+  background-attachment: fixed;
+  font-family: "HPL";
+  text-align: justify;
+}
+
+.wrapper {
+  max-width: 2100px;
+  margin: 0 auto;
+  background-color: black;
+}
+
+main {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 1.5em;
+}
+
+footer {
+  background-image: url(./background.jpg);
+}
+
+.article {
+  padding: 1.5em;
+}
+
+h1,
+h2,
+h3 {
+  text-decoration: underline;
+  font-size: 2.5em;
+}
+
+h3 {
+  font-style: italic;
+}
+
+aside {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKhR5UhYdtBgv8NVnB5RoZOuKztduqS8GudlwLVy6mcUzGMb9Eu0uwBF3t3-UXkhUCN3o&usqp=CAU);
+  padding: 1em;
+  border: solid;
+  border-color: rgb(3, 52, 3);
+  border-radius: 20px;
+  border-width: 35px;
+  padding: 0;
+  border-image: url(./Border/vecteezy_black-background-with-white-gothic-border-frame-empty_31138255.jpg);
+  display: grid;
+  align-items: center;
+  height: fit-content;
+  width: fit-content;
+}
+
+.asidePanel {
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 0;
+}
+
+footer {
+  text-align: right;
+  padding: 1em;
+  clear: both;
+  /* background-image: url(./footer.jpg);
+  height: 100%;
+  width: auto; */
+  background-color: black;
+  color: white;
+}
+/* 
+#footerimage {
+  width: 50%;
+  height: 10px;
+  position: static;
+} */
+
+nav {
+  background-image: url(https://e7.pngegg.com/pngimages/608/902/png-clipart-music-music-android-black-background-texture-atmosphere-thumbnail.png);
+  padding: 5px;
+  border: solid;
+  border-color: rgb(3, 52, 3);
+  border-radius: 15px;
+  border-width: 10px;
+  font-size: +150%;
+}
+
+ul {
+  display: grid;
+  padding: 0;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding: 0;
+  list-style-type: none;
+}
+a {
+  color: purple;
+  text-decoration: none;
+}
+a:hover {
+  color: violet;
+}
+button {
+  text-align: center;
+  font-weight: bold;
+  padding: 0.5em;
+  margin: 0.5em;
+  width: 100%;
+  background: green;
+  border-style: outset;
+  border-radius: 5px;
+  /* background-size: 100% 100%; */
+}
+
+button:active {
+  border: inset;
+}
+
+.asideButton {
+  font-size: 2em;
+  margin: 0;
+  border-radius: 35px;
+}
+
+.navButton {
+  font-size: larger;
+}
+
+.headerImage {
+  display: flex;
+  justify-content: center;
+}
+
+h3 {
+  font-size: larger;
+}
+
+article {
+  color: white;
+  padding: 1.5em;
+}
+
+.quote {
+  font-style: italic;
+  text-align: center;
+}
+
+#lovecraftHead {
+  height: 30%;
+  width: 30%;
+  float: right;
+  margin: 15px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.monstergallery {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-items: center;
+  border: solid;
+  gap: 40px;
+  padding: 20px;
+}
+
+.cthulhu {
+  grid-row: 1;
+  grid-column: span 3;
+}
+
+#title {
+  font-weight: bold;
+  font-size: 4em;
+}
