@@ -11,11 +11,12 @@ body {
   padding: 0;
   margin: 0;
   background-color: black;
-  font-size: 120%;
+  font-size: 100%;
   background-image: url(./cthulhu_wallpaper_by_lar_max_dekt18o-fullview.jpg);
   background-attachment: fixed;
   font-family: "HPL";
   text-align: justify;
+  position: relative;
 }
 
 .wrapper {
@@ -46,8 +47,14 @@ h3 {
   font-size: 2.5em;
 }
 
+h1,
+h2 {
+  text-transform: uppercase;
+}
+
 h3 {
   font-style: italic;
+  font-size: larger;
 }
 
 aside {
@@ -131,10 +138,6 @@ button:active {
 .headerImage {
   display: flex;
   justify-content: center;
-}
-
-h3 {
-  font-size: larger;
 }
 
 article {
@@ -228,4 +231,8 @@ footer {
 
 #footerlinklist {
   size-adjust: fit-content;
+}
+
+footer ul {
+  list-style-type: none;
 }
